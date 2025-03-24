@@ -1,6 +1,6 @@
-package org.example;
+package se.samueltober.ratelimiter;
 
-import java.net.http.HttpRequest;
+import se.samueltober.ratelimiter.http.RequestContext;
 
 public interface RateLimiter {
     public boolean push(RequestContext rc);

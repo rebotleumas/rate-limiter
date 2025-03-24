@@ -1,8 +1,10 @@
-package org.example;
+package se.samueltober.ratelimiter;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
+import se.samueltober.ratelimiter.http.RequestContext;
+import se.samueltober.ratelimiter.leakybucket.LeakyBucket;
 
 import java.io.IOException;
 import java.io.OutputStream;

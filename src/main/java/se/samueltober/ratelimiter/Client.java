@@ -1,4 +1,4 @@
-package org.example;
+package se.samueltober.ratelimiter;
 
 import java.net.URI;
 import java.net.URISyntaxException;

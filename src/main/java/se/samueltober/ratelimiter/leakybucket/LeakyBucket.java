@@ -1,4 +1,7 @@
-package org.example;
+package se.samueltober.ratelimiter.leakybucket;
+import se.samueltober.ratelimiter.RateLimiter;
+import se.samueltober.ratelimiter.http.RequestContext;
+
 import java.util.ArrayDeque;
 
 public class LeakyBucket implements RateLimiter {

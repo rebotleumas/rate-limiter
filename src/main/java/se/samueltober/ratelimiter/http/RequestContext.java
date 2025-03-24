@@ -1,4 +1,4 @@
-package org.example;
+package se.samueltober.ratelimiter.http;
 
 import com.sun.net.httpserver.HttpExchange;
 
